@@ -1,0 +1,44 @@
+{
+  "name": "flatson",
+  "version": "2.0.0",
+  "description": "Make ndjson streams greppable again!",
+  "main": "flatson.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "flatnest": "~1.0.0",
+    "split2": "~2.1.0",
+    "stream-splice": "~1.1.0",
+    "through2": "~2.0.1"
+  },
+  "devDependencies": {
+    "standard": "~8.0.0",
+    "tape": "~4.6.0",
+    "terminus": "~1.1.0"
+  },
+  "scripts": {
+    "test": "standard && node test/"
+  },
+  "bin": {
+    "flatson": "flatson.js",
+    "unflat": "unflat.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brycebaril/flatsoflatson.git"
+  },
+  "keywords": [
+    "ndjson",
+    "json",
+    "cli",
+    "grep"
+  ],
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brycebaril/flatson/issues"
+  },
+  "homepage": "https://github.com/brycebaril/flatson#readme"
+}

@@ -1,0 +1,5 @@
+{"this": "is a line of json"}
+{"a": ["b", 2, {"cat": "dog"}], "b": {"c": []}}
+this is not json
+"this is json"
+{"so": "is this", "is": 124}

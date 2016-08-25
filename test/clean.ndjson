@@ -1,0 +1,3 @@
+{"this": "is a line of json"}
+{"a": ["b", 2, {"cat": "dog"}], "b": {"c": []}}
+{"but": "this", "is": 124}
